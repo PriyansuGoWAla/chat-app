@@ -63,5 +63,5 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 // Export for Vercel (CommonJS format)
-module.exports = server;
+export default server;
 
