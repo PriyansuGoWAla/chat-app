@@ -16,7 +16,7 @@ export const userSocketMap = {};
 // 👉 Initialize Socket.IO
 export const io = new Server(server, {
   cors: {
-    origin: "*", // Change to frontend origin in production
+    origin: "https://chat-app-aljs.vercel.app", // Change to frontend origin in production
     credentials: true,
   },
 });
